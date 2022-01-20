@@ -143,6 +143,22 @@ public class SinglyLinkedList {
         length --;
 
     }*/
+
+    public void reverseList() {
+        // 5-H ==> 6 ==> 7 ==> 8-T
+
+        Node current = head;
+        while(current != null) {
+            Node second = current.next;
+            second.next = current;
+            current = current.next;
+        }
+
+        tail = head;
+        head = tail;
+
+    }
+
     public static void main(String[] args) {
         SinglyLinkedList ll = new SinglyLinkedList(5);
         //append node
@@ -178,6 +194,7 @@ public class SinglyLinkedList {
         ll.printList();
         System.out.println();
        // ll.deletebyValue(48, ll.getLength());
+        ll.reverseList();
         ll.printList();
 
     }
