@@ -1,3 +1,5 @@
+package com.learndsa.miscproblems;
+
 public class FindPrime {
     public static void main(String[] args) {
         checkIfPrime(6);

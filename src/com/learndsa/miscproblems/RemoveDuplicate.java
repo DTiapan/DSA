@@ -1,3 +1,5 @@
+package com.learndsa.miscproblems;
+
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 

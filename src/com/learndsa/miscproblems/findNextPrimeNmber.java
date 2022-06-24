@@ -1,4 +1,6 @@
-/*public class findNextPrimeNmber {
+package com.learndsa.miscproblems;
+
+/*public class com.learndsa.miscproblems.findNextPrimeNmber {
 
 
     public static void main(String[] args) {
